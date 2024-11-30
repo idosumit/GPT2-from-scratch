@@ -42,7 +42,7 @@ python generatetext.py
 
 This will generate a text completion based on the input text and the desired length of the output text. The output will be printed to the console.
 
-It looks something like this at the moment(based on start_context="Happy birthday to" and max_new_tokens=200):
+It looks something like the following at the moment (based on `start_context`="Happy birthday to" and `max_new_tokens`=200):
 
 ![generatedtext](./assets/gibberish.png)
 
