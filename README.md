@@ -1,11 +1,20 @@
 # GPT-2 From Scratch
 
+Table of contents:
+
+- [Introduction](#introduction)
+- [Setup and installation](#setup-and-installation)
+- [Running the code](#running-the-code)
+- [Completed updates](#completed-updates)
+- [TODO](#todo)
+
 ## Introduction
 
 I've always wanted to create a GPT-2 model from scratch, and this is my attempt at it. What I have in this repository is a fully-working GPT-2 model that can generate texts based on a given input and expected length of the text completion.
 
 > [!IMPORTANT]
-> As of Nov 30, 2024 (happy birthday, ChatGPT!), I've managed to initialize the model and although it generates output texts based on the input, they are utter gibberish. This is because the weights have not been trained yet. I'm currently working on the training process. Therefore, the model is not very useful at the moment, but it's a nice starting point as a base for further development. Also, I'm learning a lot here, so expect the code to change a bit in the future.
+> As of Nov 30, 2024 (happy birthday, ChatGPT!):
+> I've managed to initialize the model and although it generates output texts based on the input, they are utter gibberish. This is because the weights have not been trained yet. I'm currently working on the training process. Therefore, the model is not very useful at the moment, but it's a nice starting point as a base for further development. Also, I'm learning a lot here, so expect the code to change a bit in the future.
 
 ## Setup and installation
 
@@ -37,7 +46,7 @@ It looks something like this at the moment(based on start_context="Happy birthda
 
 ---
 
-## COMPLETED
+## COMPLETED UPDATES
 
 - [x] Multi-head attention
 - [x] Feed-forward network
