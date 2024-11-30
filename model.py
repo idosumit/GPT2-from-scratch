@@ -8,7 +8,8 @@ This file contains the GPT2 class, which is the transformer model.
 
 As of Nov 30, 2024 (happy birthday, ChatGPT!):
 This is currently configured for the 124M model, and is outputting logits.
-In the future, it will need to have a loss function and optimizer applied to it so that it can learn.
+In the future, it will need to have a loss function and optimizer applied to it
+so that it can learn.
 '''
 
 

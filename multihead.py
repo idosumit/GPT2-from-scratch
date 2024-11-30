@@ -4,31 +4,36 @@ import torch.nn as nn
 '''
 This file contains the MultiHeadAttention class, which is the multihead attention class.
 
-Multihead attention is used in the transformer model to allow the model to jointly attend to information from different
-representation subspaces at different positions. This is done by splitting the input into multiple heads, computing the
-attention scores for each head, and then concatenating the results.
+Multihead attention is used in the transformer model to allow the model to jointly
+attend to information from different representation subspaces at different positions.
+This is done by splitting the input into multiple heads, computing the attention
+scores for each head, and then concatenating the results.
 
 Some important bits about this code:
 
-1. The mask is used to prevent the model from attending to future positions. This is an implementation of the
-causal mask, which is a triangular matrix filled with -inf (infinity) values.
+1. The mask is used to prevent the model from attending to future positions.
+This is an implementation of the causal mask, which is a triangular matrix filled
+with -inf (infinity) values.
 
-2. The keys, queries, and values are all linear transformations of the input. The keys and queries are used to compute the
-attention scores, and the values are used to compute the context vector.
+2. The keys, queries, and values are all linear transformations of the input.
+The keys and queries are used to compute the attention scores, and the values are
+used to compute the context vector.
 
-3. The attention scores are computed by taking the dot product of the queries and keys, and then scaling by the square
-root of the key dimension. This is to prevent the scores from becoming too large or too small, which can cause numerical
-stability issues.
+3. The attention scores are computed by taking the dot product of the queries and keys,
+and then scaling by the square root of the key dimension. This is to prevent the
+scores from becoming too large or too small, which can cause numerical stability issues.
 
-4. The attention scores are then passed through a softmax function to turn them into probabilities. This is done to ensure
-that the attention scores sum to 1, which is a requirement for the attention mechanism.
+4. The attention scores are then passed through a softmax function to turn them
+into probabilities. This is done to ensure that the attention scores sum to 1,
+which is a requirement for the attention mechanism.
 
-5. The context vector is computed by taking the attention scores, multiplying them by the values, and then concatenating
-the results. This is done for each head, and the results are then concatenated and passed through a linear transformation
+5. The context vector is computed by taking the attention scores, multiplying them
+by the values, and then concatenating the results. This is done for each head,
+and the results are then concatenated and passed through a linear transformation
 and a dropout layer to produce the final output, which is the context vector.
 
-6. Context vector is the output of the multihead attention block, which is the weighted sum of the values, weighted by the
-attention scores.
+6. Context vector is the output of the multihead attention block, which is the
+weighted sum of the values, weighted by the attention scores.
 '''
 
 class MultiHeadAttention(nn.Module):

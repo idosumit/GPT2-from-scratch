@@ -5,8 +5,9 @@ from layernorm import LayerNorm
 from ff import FeedForward
 
 '''
-This file contains the TransformerBlock class, which is a single transformer block. It contains the multihead attention
-and feed forward blocks and will be used in the model.py file to create the full transformer model.
+This file contains the TransformerBlock class, which is a single transformer block.
+It contains the multihead attention and feed forward blocks and will be used in the
+model.py file to create the full transformer model.
 '''
 
 class TransformerBlock(nn.Module):

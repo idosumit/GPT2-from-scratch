@@ -3,9 +3,10 @@ import torch.nn as nn
 
 '''
 This file contains the LayerNorm class, which is the layer normalization class.
-Layer normalization is used in the transformer model to normalize the input to the transformer block.
-Specifically speaking, it normalizes the input to have an uniform mean and variance so that it streamlines
-the training and evaluation process.
+Layer normalization is used in the transformer model to normalize the input to
+the transformer block. Specifically speaking, it normalizes the input to have an
+uniform mean and variance so that it streamlines the training and evaluation
+process.
 '''
 
 class LayerNorm(nn.Module):

@@ -3,7 +3,9 @@ import torch.nn as nn
 import tiktoken
 
 '''
-This file is just for me to see the output logits (numbers before softmax) of the model, you can run it to get a feel for the model. not used for training.
+This file is just for me to see the output logits (numbers before softmax) of
+the model, you can run it to get a feel for the model. Not used for training.
+
 Logits are the raw output of the model before the softmax activation function is applied.
 '''
 
