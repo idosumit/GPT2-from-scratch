@@ -7,6 +7,7 @@ Table of contents:
 - [RUNNING THE CODE](#running-the-code)
 - [COMPLETED UPDATES](#completed-updates)
 - [TODO](#todo)
+- [REFERENCES](#references)
 
 ---
 
@@ -69,3 +70,16 @@ It looks something like the following at the moment (based on `start_context`="H
 - [ ] Fine-tuning
   - [ ] for classification
   - [ ] for following instructions
+
+---
+
+## REFERENCES
+
+This has been made possible largely due to the book "[Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch)" by Sebastian Raschka. God bless the man.
+
+Additional resources that I referred to:
+- [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf), the original GPT-2 paper
+- [Let's build a GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=9s) by Andrej Karpathy
+- [Attention is all you need](https://arxiv.org/abs/1706.03762), the original Transformer paper
+- [Understanding LLMs: A Comprehensive Overview from Training to Inference](https://arxiv.org/abs/2401.02038)
+- [The Transformer Family](https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/) by Lilian Weng
