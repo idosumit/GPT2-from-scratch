@@ -2,13 +2,13 @@
 
 Table of contents:
 
-- [Introduction](#introduction)
-- [Setup and installation](#setup-and-installation)
-- [Running the code](#running-the-code)
-- [Completed updates](#completed-updates)
+- [INTRODUCTION](#introduction)
+- [SETUP AND INSTALLATION](#setup-and-installation)
+- [RUNNING THE CODE](#running-the-code)
+- [COMPLETED UPDATES](#completed-updates)
 - [TODO](#todo)
 
-## Introduction
+## INTRODUCTION
 
 I've always wanted to create a GPT-2 model from scratch, and this is my attempt at it. What I have in this repository is a fully-working GPT-2 model that can generate texts based on a given input and expected length of the text completion.
 
@@ -16,11 +16,11 @@ I've always wanted to create a GPT-2 model from scratch, and this is my attempt 
 > As of Nov 30, 2024 (happy birthday, ChatGPT!):
 > I've managed to initialize the model and although it generates output texts based on the input, they are utter gibberish. This is because the weights have not been trained yet. I'm currently working on the training process. Therefore, the model is not very useful at the moment, but it's a nice starting point as a base for further development. Also, I'm learning a lot here, so expect the code to change a bit in the future.
 
-## Setup and installation
+## SETUP AND INSTALLATION
 
 To start, use the terminal to go to the directory where you want to clone the repository, clone it, create a virtual environment, and install the dependencies:
 
-```
+```bash
 git clone https://github.com/idosumit/GPT2-from-scratch.git # clone the repository
 cd GPT2-from-scratch # navigate to the repository
 python -m venv venv_gpt2 # create a virtual environment
@@ -28,7 +28,7 @@ source venv_gpt2/bin/activate # activate the virtual environment
 pip install -r requirements.txt # install the dependencies
 ```
 
-## Running the code
+## RUNNING THE CODE
 
 You can change the input text as well as the desired length of the output text in the [generatetext.py](./generatetext.py) file (lines 20 and 200 respectively). Based on the input text, the model will generate a completion of the text of the desired length.
 
