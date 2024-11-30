@@ -8,6 +8,8 @@ Table of contents:
 - [COMPLETED UPDATES](#completed-updates)
 - [TODO](#todo)
 
+---
+
 ## INTRODUCTION
 
 I've always wanted to create a GPT-2 model from scratch, and this is my attempt at it. What I have in this repository is a fully-working GPT-2 model that can generate texts based on a given input and expected length of the text completion.
