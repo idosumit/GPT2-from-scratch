@@ -21,15 +21,32 @@ I've always wanted to create a GPT-2 model from scratch, and this is my attempt 
 
 ## SETUP AND INSTALLATION
 
+Ensure you have `pip` installed in your computer before you begin.
+
+[pip installation](https://pip.pypa.io/en/stable/installation/)
+
 To start, use the terminal to go to the directory where you want to clone the repository, clone it, create a virtual environment, and install the dependencies:
 
-```zsh
+For Windows and Linux:
+
+```bash
 git clone https://github.com/idosumit/GPT2-from-scratch.git # clone the repository
 cd GPT2-from-scratch # navigate to the repository
 python -m venv venv_gpt2 # create a virtual environment
 source venv_gpt2/bin/activate # activate the virtual environment
 pip install -r requirements.txt # install the dependencies
 ```
+
+For macOS:
+
+```zsh
+git clone https://github.com/idosumit/GPT2-from-scratch.git # clone the repository
+cd GPT2-from-scratch # navigate to the repository
+python3 -m venv venv_gpt2 # create a virtual environment
+source venv_gpt2/bin/activate # activate the virtual environment
+pip install -r requirements.txt # install the dependencies
+```
+
 
 ## RUNNING THE CODE
 
