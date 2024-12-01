@@ -53,7 +53,7 @@ model.eval()
 out = generate_text(
     model=model,
     idx=encoded_tensor,
-    max_new_tokens=200, # change this to determine the output text length
+    max_new_tokens=40, # change this to determine the output text length
     context_size=GPT_CONFIG["context_length"]
 )
 
