@@ -87,9 +87,10 @@ It looks something like the following at the moment (based on `start_context`="H
 
 ## TODO
 
-- [ ] Pretraining
-  - [ ] Cross-entropy loss
-  - [ ] Backpropagation
+(+) = in progress
+- [ ] Pretraining (in progress)
+  - [ ] Cross-entropy loss (+)
+  - [ ] Backpropagation (+)
   - [ ] Update weights
 - [ ] Fine-tuning
   - [ ] for classification
