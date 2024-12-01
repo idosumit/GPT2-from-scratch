@@ -21,10 +21,6 @@ I've always wanted to create a GPT-2 model from scratch, and this is my attempt 
 
 ## SETUP AND INSTALLATION
 
-Ensure you have `pip` installed in your computer before you begin.
-
-[pip installation](https://pip.pypa.io/en/stable/installation/)
-
 #### To start, use the terminal to go to the directory where you want to clone the repository and clone it:
 
 ```bash
@@ -52,6 +48,10 @@ source venv_gpt2/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+Note: `pip` should automatically be installed if yopu create a virtual environment, but in case your terminal throws errors, you can install it manually too: 
+
+[pip installation](https://pip.pypa.io/en/stable/installation/)
 
 And that's it! We have set up the enviroment.
 
