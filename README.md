@@ -49,7 +49,7 @@ source venv_gpt2/bin/activate
 pip install -r requirements.txt
 ```
 
-Note: `pip` should automatically be installed if yopu create a virtual environment, but in case your terminal throws errors, you can install it manually too: 
+Note: `pip` should automatically be installed if you create a virtual environment, but in case your terminal throws errors, you can install it manually too: 
 
 [pip installation](https://pip.pypa.io/en/stable/installation/)
 
