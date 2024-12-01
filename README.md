@@ -28,20 +28,20 @@ Ensure you have `pip` installed in your computer before you begin.
 To start, use the terminal to go to the directory where you want to clone the repository and clone it:
 
 ```bash
-git clone https://github.com/idosumit/GPT2-from-scratch.git # clone the repository
+git clone https://github.com/idosumit/GPT2-from-scratch.git
 
 ```
 
 Navigate inside the repository:
 ```bash
-cd GPT2-from-scratch # navigate to the repository
+cd GPT2-from-scratch
 ```
 
 Create a virtual environment:
 
 *for Windows and Linux:*
 ```bash
-python -m venv venv_gpt2 # create a virtual environment
+python -m venv venv_gpt2
 ```
 
 *for macOS:*
@@ -51,12 +51,12 @@ python3 -m venv venv_gpt2
 
 Activate the virtual environment:
 ```bash
-source venv_gpt2/bin/activate # activate the virtual environment
+source venv_gpt2/bin/activate
 ```
 
 Finally, install all the dependencies:
 ```bash
-pip install -r requirements.txt # install the dependencies
+pip install -r requirements.txt
 ```
 
 And that's it! We have set up the enviroment.
