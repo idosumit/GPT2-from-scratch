@@ -39,12 +39,12 @@ cd GPT2-from-scratch # navigate to the repository
 
 Create a virtual environment:
 
-__for Windows and Linux:__
+*for Windows and Linux:*
 ```bash
 python -m venv venv_gpt2 # create a virtual environment
 ```
 
-__for macOS:__
+*for macOS:*
 ```zsh
 python3 -m venv venv_gpt2
 ```
