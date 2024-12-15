@@ -22,7 +22,8 @@ I've always wanted to create a GPT-2 model from scratch, and this is my attempt 
 
 There is also another way to load pretrained weights from OpenAI's GPT-2 model. I have loaded my model with the GPT-2 weights and it works very well. You can take a look at the [my-model-w-oai-weights.ipynb](./my-model-w-oai-weights.ipynb) file to see how I did it.
 
-This is how it looks:\
+This is how it looks:
+
 ![Sample-output](./assets/my-model-w-oai-weights.png)
 
 ## SETUP AND INSTALLATION
